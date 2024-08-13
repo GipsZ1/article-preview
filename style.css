@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;300;400;500;600;700&family=Manrope:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@500;700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-size: 13px;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: hsl(210, 46%, 95%);
+    font-size: 13px;
+    font-family: "Manrope", sans-serif;
+}
+.container{
+     margin: 10em auto;
+     width: 95%;
+     background-color:white ;
+     border-radius: 1em;
+     box-shadow: 0.5px 0.5px 3px hsl(214, 17%, 51%);
+     max-width: 550px;
+}
+
+.card__img {
+    width: 100%;
+    background-image: url(images/drawers.jpg);
+    padding: 10em;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.card__header{
+    padding: 2em 2em 0;
+    line-height: 1.5;
+}
+.card__header h2{
+    font-weight: 700;
+    width: 100%;
+    color: hsl(217, 19%, 35%);
+}
+.card__header p{
+    font-weight: 500;
+    line-height: 1.7;
+    color: hsl(217, 19%, 35%);
+}
+.footer__dis{
+    width: 80%;
+    margin: 0 1em;
+    display: flex;
+    align-items: center;
+}
+.card__footer{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    padding: 1em auto;
+}
+.footerimg {
+    width: 20%;
+    border-radius: 5em;
+}
+.footer__text{
+    margin-left: 2em;
+    display: block;
+    align-items: center;
+}
+.footer__text p{
+    color: hsl(212, 23%, 69%);
+}
+.footer__text h4{
+    margin: .6em auto;
+    color: hsl(217, 19%, 35%);
+}
+.icon{
+    background-color: hsl(210, 46%, 95%);
+    padding: 1em;
+    border-radius: 2em;
+    border: none;
+    cursor: pointer;
+}
+.footer__icons{
+    background-color: hsl(217, 19%, 35%);
+    border-radius: 0 0 1em 1em;
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    justify-content: space-between;
+
+
+}
+.footer__icons p{
+    color: white;
+    margin-left: .5em;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: lighter;
+}
+.fot__icons img{
+    margin: .5em;
+   
+}
+.fot__icons +.icon{
+    margin-right: 2em;
+}
+@media (min-width:750px){
+    .card{
+        display: flex;
+    }
+    .card__img{
+        width: 100%;
+        background-size: cover;
+        
+    }
+    .card__img {
+        width: 50%;
+    }
+    .card__header{
+        width: 70%;
+        margin-bottom: 2em
+
+    }
+    .footer__text p{
+        margin: 0;
+    }
+    .footer__text h4{
+        margin: 0;
+    }
+    .footer__dis{
+        margin-right: 2em;
+    }
+    .card__footer{
+        width: 100%;
+    }
+}
